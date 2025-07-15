@@ -9,8 +9,8 @@ function generatePassword(){
     displayOne.textContent = ""
     displayTwo.textContent = ""
     for (let i = 0; i < 15; i++){
-        randomIndex = getRandomIndex()
-        randomIndex2 = getRandomIndex()
+        let randomIndex = getRandomIndex()
+        let randomIndex2 = getRandomIndex()
         displayOne.textContent += characters[randomIndex]
         displayTwo.textContent += characters[randomIndex2]
     }  
