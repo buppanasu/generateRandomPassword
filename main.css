@@ -35,3 +35,14 @@ body{
     align-items: left;
     padding: 300px 400px 300px 400px
 }
+
+#trappisNeo{
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#fourofakind{
+    width: 200px;
+}

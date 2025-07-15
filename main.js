@@ -30,3 +30,7 @@ function copyText2(){
     navigator.clipboard.writeText(displayTwo.textContent)
     alert("Copied the text" + displayTwo.textContent)
 }
+
+function showSurprise(){
+    document.getElementById("trappisNeo").style.visibility = "visible"
+}
